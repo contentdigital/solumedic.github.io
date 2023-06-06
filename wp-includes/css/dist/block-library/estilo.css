@@ -56,13 +56,7 @@
     font-weight: 600;
   }
 
-  .tachado del {
-    font-size: 45px;
-    color: #EA0000;
-    font-weight: 600;
-  }
-
-  @media (max-width: 767px){
+@media (max-width: 767px){
     .section_promocion{
       width: 100%;
     }
@@ -99,15 +93,10 @@
       font-weight: 600;
       margin-bottom: 8px;
     }
+    
     .valor_oferta{
       font-size: 25px;
       color: #333333;
-      font-weight: 600;
-    }
-  
-    .tachado del {
-      font-size: 45px;
-      color: #EA0000;
       font-weight: 600;
     }
 
