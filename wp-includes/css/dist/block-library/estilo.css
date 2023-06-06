@@ -4,3 +4,111 @@
  .gatillo{
     padding: 23px;
   }
+
+ /* **********************caja de promocion************************ */
+
+  .section_promocion{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px #6666;
+    padding: 40px 0px 40px 0px;
+  }
+
+  .title_promocion{
+    font-size: 25px;
+    color: #EA0000;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .subtitle_promocion{
+    font-size: 22px;
+    color: #EA0000;
+    font-weight: 600;
+  }
+
+  .precio_regular{
+    font-size: 40px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+
+  .valor_regular{
+    font-size: 45px;
+    color: #EA0000;
+    font-weight: 600;
+    text-decoration: line-through #f00 5px;
+  }
+
+  .precio_oferta{
+    font-size: 25px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .valor_oferta{
+    font-size: 25px;
+    color: #333333;
+    font-weight: 600;
+  }
+
+  .tachado del {
+    font-size: 45px;
+    color: #EA0000;
+    font-weight: 600;
+  }
+
+  @media (max-width: 767px){
+    .section_promocion{
+      width: 100%;
+    }
+  
+    .title_promocion{
+      font-size: 25px;
+      padding: 0px 5px 0px 5px;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+  
+    .subtitle_promocion{
+      font-size: 18px;
+    }
+  
+    .precio_regular{
+      font-size: 30px;
+      color: #333333;
+      font-weight: 600;
+      margin-bottom: 13px;
+    }
+  
+    .valor_regular{
+      font-size: 45px;
+      color: #EA0000;
+      font-weight: 600;
+      text-decoration: line-through #f00 5px;
+      margin-bottom: 49px;
+    }
+  
+    .precio_oferta{
+      font-size: 25px;
+      color: #333333;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .valor_oferta{
+      font-size: 25px;
+      color: #333333;
+      font-weight: 600;
+    }
+  
+    .tachado del {
+      font-size: 45px;
+      color: #EA0000;
+      font-weight: 600;
+    }
+
+  }
